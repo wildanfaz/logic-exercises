@@ -79,7 +79,7 @@ func factorial(number int) int {
 }
 
 func TestGetHighestNumber(t *testing.T) {
-	assert.Equal(t, 200, getHighestNumber([]int{120, 180, 150, 125, 175, 200, 130}))
+	assert.Equal(t, 3000, getHighestNumber([]int{1200, 3000, 2300, 1700}))
 }
 
 func getHighestNumber(numbers []int) int {
@@ -92,20 +92,21 @@ func getHighestNumber(numbers []int) int {
 	return 0
 }
 
-func TestChangeStringInSlices(t *testing.T) {
+func TestUpdateStringInSlices(t *testing.T) {
 	slices := []string{"dia", "suka", "membaca"}
 	old := "membaca"
 	new := "makan"
 
-	changeStringInSlices(slices, old, new)
+	updateStringInSlices(slices, old, new)
 
 	assert.Equal(t, []string{"dia", "suka", "makan"}, slices)
 }
 
-func changeStringInSlices(slices []string, old, new string) {
+func updateStringInSlices(slices []string, old, new string) {
 	for k, v := range slices {
 		if v == old {
 			slices[k] = new
+			break
 		}
 	}
 }

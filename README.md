@@ -6,36 +6,39 @@ This repository contains a collection of exercises in the Go programming languag
 
 ### 1. Prime Number
 
-* Input : 7
-* Expected : true
 
-* Input : 8
-* Expected : false
+| Number | Input | Expected |
+| ------ | ----- | -------- |
+| 1      | 7     | true     |
+| 2      | 8     | false    |
 
 ### 2. Palindrome
 
-* Input : "malam"
-* Expected : true
-
-* Input : "hari"
-* Expected : false
+| Number | Input     | Expected |
+| ------ | --------- | -------- |
+| 1      | "malam"   | true     |
+| 2      | "hari"    | false    |
 
 ### 3. Fibonacci
 
-* Input : 7
-* Expected : [0, 1, 1, 2, 3, 5, 8]
+| Number | Input     | Expected                |
+| ------ | --------- | ----------------------- |
+| 1      | 7         | [0, 1, 1, 2, 3, 5, 8]   |
 
 ### 4. Factorial
 
-* Input : 4
-* Expected : 24
+| Number | Input     | Expected    |
+| ------ | --------- | ----------- |
+| 1      | 4         | 24          |
 
 ### 5. Get Highest Number
 
-* Input : [120, 180, 150, 125, 175, 200, 130]
-* Expected : 200
+| Number | Input                        | Expected    |
+| ------ | ---------------------------- | ----------- |
+| 1      | [1200, 3000, 2300, 1700]     | 3000        |
 
-### 6. Change String in Slices
+### 6. Update String in Slices
 
-* Input : ["dia", "suka", "membaca"], "membaca", "makan"
-* Expected : ["dia", "suka", "makan"]
+| Number | Input                                              | Expected                 |
+| ------ | -------------------------------------------------- | ------------------------ |
+| 1      | ["dia", "suka", "membaca"], "membaca", "makan"     | ["dia", "suka", "makan"] |
