@@ -110,3 +110,16 @@ func updateStringInSlices(slices []string, old, new string) {
 		}
 	}
 }
+
+func TestGetAbsoluteValue(t *testing.T) {
+	assert.Equal(t, 10, getAbsoluteValue(10))
+	assert.Equal(t, 20, getAbsoluteValue(-20))
+}
+
+func getAbsoluteValue(number int) int {
+	if number < 0 {
+		return -number
+	}
+
+	return number
+}

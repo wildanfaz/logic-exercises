@@ -42,3 +42,10 @@ This repository contains a collection of exercises in the Go programming languag
 | Number | Input                                              | Expected                 |
 | ------ | -------------------------------------------------- | ------------------------ |
 | 1      | ["dia", "suka", "membaca"], "membaca", "makan"     | ["dia", "suka", "makan"] |
+
+### 7. Get Absolute Value
+
+| Number | Input     | Expected    |
+| ------ | --------- | ----------- |
+| 1      | -20       | 20          |
+| 2      | 10        | 10          |
