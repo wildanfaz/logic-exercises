@@ -49,3 +49,9 @@ This repository contains a collection of exercises in the Go programming languag
 | ------ | --------- | ----------- |
 | 1      | -20       | 20          |
 | 2      | 10        | 10          |
+
+### 8. Get Percentage
+
+| Number | Input     | Expected    |
+| ------ | --------- | ----------- |
+| 1      | 50, 200   | "25.00%"    |

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"sort"
 	"testing"
 
@@ -122,4 +123,13 @@ func getAbsoluteValue(number int) int {
 	}
 
 	return number
+}
+
+func TestGetPercentage(t *testing.T) {
+	assert.Equal(t, "25.00%", getPercentage(50, 200))
+}
+
+func getPercentage(n1, n2 float64) string {
+	result := fmt.Sprintf("%.2f", n1*100/n2) + "%"
+	return result
 }
